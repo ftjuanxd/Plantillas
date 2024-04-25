@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu 3D Restaurant</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <div class="contenedor-menu">
+        
+        <div class="pagina-izquierda">
+            
+            <div class="delante lado">
+                
+                <img src="images/paz.jpg" alt="Imagen de presentacion">
+                <h1>Peace Story
+                </h1>
+                <hr>
+                <h3>What we look for and want</h3>
+                <button class="btn-ver-menu">Open me</button>
+                <h4>Participants</h4>
+                <p>Juan Sebastian Parra Garcia</p>
+                <ul>
+                    <h5>Mail</h5>
+                    <label>juaparra37@uan.edu.co</label>
+                </ul>
+                <p>Eleider Edwin Amaya Roa</p>
+                
+                <ul>
+                    <h5>Mail</h5>
+                    <label>@</label>
+                </ul>
+            </div>
+            
+            <div class="atras lado">
+                
+                <div class="contenedor-lista">
+                    <div class="lista-uno">
+                        <h1>Peace Culture</h1>
+                        <img src="images/plato1.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup1','atras')"> See More</button>
+                        <div class="popup" id="popup1" >
+                            <img src="images/paz.jpg">
+                            <h2>Peace Culture</h2>
+                            <p>
+                                The culture of peace in Colombia is a broad concept that refers to efforts and practices aimed at promoting peace, respect for human rights, and non-violent conflict resolution. In the Colombian context,
+                                This concept has been particularly relevant given the country's long history of armed conflict and the peace        processes that have sought to end it.
+                                </p>
+                            <button type="button" onclick="closePopup('popup1','atras')">Close</button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="lista-dos">
+                        <h1>Key AspectS</h1>
+                        <img src="images/plato2.png" >
+                        <button type="submit" class="btn" onclick="openPopup('popup2','atras')"> See More</button>
+                        <div class="popup" id="popup2">
+                            <img src="tick.png">
+                            <h2>Conflict Resolution</h2>
+                            <p>
+                                The culture of peace involves promoting methods for conflict resolution that avoid violence. This includes dialogues, mediations and negotiations, both at community and national levels.
+                            </p>
+                            <h2>Education and Awareness</h2>
+                            <p>
+                                An important part of the culture of peace in Colombia has been peace education, which seeks to instill values of respect, tolerance and solidarity in new generations. Education in human rights and the history of the Colombian conflict are also essential to understand the roots and consequences of violence.
+                            </p>
+                            <h2>Citizen participation </h2>
+                            <p> 
+                                The culture of peace emphasizes the importance of the participation of all sectors of society in peace processes and in the construction of a more just and equitable society. This includes the participation of indigenous groups, Afro-descendants, women, and other communities that have been historically marginalized.</p>
+                            <button type="button" onclick="closePopup('popup2','atras')">Close</button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="lista-tres">
+
+                        <img src="images/plato3.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup3','atras')">See More</button>
+                        <div class="popup" id="popup3" >
+                            <img src="tick.png">
+                            <h2>Justice and reparation</h2>
+                            <p>
+                                In the context of the culture of peace, justice not only implies punishing the guilty, but also guaranteeing reparation to the victims and the truth about what happened. This is essential for reconciliation and to avoid the repetition of violence.
+                            </p>
+                            <h2>Institutionality and Rule of Law</h2>
+                            <p>
+                                Strengthening democratic institutions and guaranteeing the rule of law are important pillars of the culture of peace. This includes strengthening justice, protecting human rights and guaranteeing basic services for all citizens.
+                                </p>
+                                <h2>Disarmament and Reintegration</h2>
+                                <p>	
+                                    The demobilization and reintegration of ex-combatants into society is another crucial aspect. This not only implies physical disarmament, but also education and support processes to facilitate their transition to civilian life and avoid recurrence of violence.
+                                    </p>
+                            <button type="button" onclick="closePopup('popup3','atras')">Close</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="pagina-central">
+            
+            <div class="contenedor-lista">
+                    <div class="lista-uno">
+                        <h1>Evolucion Historica de la Paz</h1>
+                        <img src="images/plato4.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup4','center')"> See More</button>
+                        <div class="popup" id="popup4"> 
+                            <img src="tick.png">
+                            <h2>Conflict and Peace Negotiations</h2>
+                            <p>The contemporary history of Colombia has been deeply influenced by the armed conflict between the government, guerrilla groups, paramilitaries and criminal gangs. This conflict, which has spanned more than five decades, has motivated various peace initiatives.</p>
+                            <button type="button" onclick="closePopup('popup4','center')">Close</button>
+                        </div>
+                
+                        <hr>
+                    </div>
+                    <div class="lista-dos">
+                        <img src="images/plato5.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup5','center')"> See More</button>
+                        <div class="popup" id="popup5">
+                            <img src="tick.png">
+                            <h2>Peace Agreements</h2>
+                            <p>A key moment in the evolution of the culture of peace was the signing of the Peace Agreement in 2016 between the Colombian government and the FARC-EP. This agreement not only sought to end one of the oldest and strongest guerrilla groups in the country,
+                                but also launched a series of mechanisms for the reintegration of combatants and compensation for victims.</p>
+                            <button type="button" onclick="closePopup('popup5','center')">Close</button>
+                        </div>
+                
+                        <hr>
+                    </div>
+                    <div class="lista-tres">
+                        <img src="images/plato6.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup6','center')"> See More</button>
+                        <div class="popup" id="popup6">
+                            <img src="tick.png">
+                            <h2>Institutionalization of Peace</h2>
+                            <p>Tras el acuerdo, se han desarrollado instituciones como la Jurisdicción Especial para la Paz (JEP) y la Comisión de la Verdad, enfocadas en la justicia transicional, la verdad y la reparación para las víctimas.</p>
+                            <button type="button" onclick="closePopup('popup6','center')">Close</button>
+                        </div>
+                
+                    </div>
+                </div>
+            
+        </div>
+        
+        <div class="pagina-derecha">
+            
+            <div class="contenedor-lista lado-pagina-derecha">
+                    <div class="lista-uno">
+                        <h1>Strategies to Consolidate the Culture of Peace</h1>
+                        <img src="images/plato7.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup7','final')"> See More</button>
+                        <div class="popup" id="popup7">
+                            <img src="tick.png">
+                            <h2>Education for Peace</h2>
+                            <p>Education plays a crucial role in consolidating a culture of peace. Educational programs that promote tolerance, respect for human rights and conflict resolution are essential.</p>
+                            <button type="button" onclick="closePopup('popup7','final')">Close</button>
+                        </div>
+                
+                        <hr>
+                    </div>
+                    <div class="lista-dos">
+                        <img src="images/plato8.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup8','final')"> See More</button>
+                        <div class="popup" id="popup8">
+                            <img src="tick.png">
+                            <h2>Community Participation</h2>
+                            <p>Involving local communities in decision-making processes and sustainable development projects helps strengthen social ties and promote peace from the grassroots.</p>
+                            <h2>Strengthening the Rule of Law</h2>
+                            <p>Ensuring that institutions are fair, transparent and accessible to all citizens is essential to building trust in the system and consolidating peace.</p>
+                            <button type="button" onclick="closePopup('popup8','final')">Close</button>
+                        </div>
+                
+                        <hr>
+                    </div>
+                    <div class="lista-tres">
+                        <img src="images/plato9.png">
+                        <button type="submit" class="btn" onclick="openPopup('popup9','final')"> See More</button>
+                        <div class="popup" id="popup9">
+                            <img src="tick.png">
+                            
+                            <h2>Dialogue and Reconciliation</h2>
+                            <p>Continuing dialogue efforts between different sectors of society, including ex-combatants and victims, is vital to heal the wounds of the conflict and move towards effective reconciliation.</p>
+                            <h2>International Support and Cooperation</h2>
+                            <p>Collaboration with international organizations and countries that have gone through successful peace processes can provide valuable resources and lessons learned.</p>
+                            <button type="button" onclick="closePopup('popup9','final')">Close</button>
+                        </div>
+                
+                    </div>
+                </div>
+            <div class="pagina-derecha-atras lado-pagina-derecha"></div>
+            <div class="btn-cerrar lado-pagina-derecha">X</div>
+        </div>
+        
+    </div>    
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
